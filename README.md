@@ -1,4 +1,4 @@
-# COMMENT-FABRIQUER-UN-EFFAROUCHEUR-DFTA141
+# COMMENT-FABRIQUER-UN-EFFAROUCHEUR-DFTA141 : https://youtu.be/kzmnxiJcb9Q
 Ce dispositif est basé principalement sur l’emploi d’un capteur PIR (capteur infrarouge pyrométrique), dans notre cas il s’agit du HC-SR501. Il doit être alimenté en 5V et il possède une sortie passant au niveau HIGH lorsqu’il a détecté la présence d’une personne ou d’un animal.
 Cet effaroucheur est un dispositif très simple monté sur une petite plaquette électronique.
 Il est absolument inoffensif. Au départ je l’avais conçu pour dissuader un petit écureuil qui voulait s’approprier les tomates du potager de mon épouse.
