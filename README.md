@@ -3,6 +3,7 @@ Ce dispositif est basé principalement sur l’emploi d’un capteur PIR (capteu
 Cet effaroucheur est un dispositif très simple monté sur une petite plaquette électronique.
 Il est absolument inoffensif. Au départ je l’avais conçu pour dissuader un petit écureuil qui voulait s’approprier les tomates du potager de mon épouse.
 Ce dispositif est basé principalement sur l’emploi d’un capteur PIR (capteur infrarouge pyrométrique), dans notre cas il s’agit du HC-SR501. Il doit être alimenté en 5V et il possède une sortie passant au niveau HIGH (3.3V) lorsqu’il a détecté la présence d’une personne ou d’un animal.
+
 Analyse du schéma :
 Le Seeeduino XIAO (U1) reçoit la sortie du PIR sur sa borne7 (A6/D6). Si les conditions sont présentes cad D4 et D6 à l’état HIGH, il enclenchera le scénario « NEOPIXEL» des LEDs adressables .
 Si de plus D6, D3 et D4 sont à l’état HIGH, il enclenchera en supplément le bruiteur AD9833 (U3) dont le signal est amplifié par un amplificateur de classe D PAM8403 (U2) pour actionner un Haut-parleur.
